@@ -10,15 +10,19 @@ This is a todo app to add the task to it.Also it has a functunality of mark an I
 The Item Will Be mark as completed.
 
 Requirements
-Node and npm
+Node, npm and ExpressJs
 
 #Installation
 
 Clone the repository: git clone git@github.com:hrsss/Todo
+
 Install the application: npm install init express
+
 Start the server: node app.js
+
 View in browser at http://localhost:3000
 
 #Deployment on Heroku
+
 Link : 
 https://boiling-ravine-99299.herokuapp.com/
