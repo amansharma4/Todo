@@ -12,11 +12,13 @@ The Item Will Be mark as completed.
 Requirements
 Node and npm
 
-Installation
+#Installation
+
 Clone the repository: git clone git@github.com:hrsss/Todo
 Install the application: npm install init express
 Start the server: node app.js
 View in browser at http://localhost:3000
-Deployment on Heroku
+
+#Deployment on Heroku
 Link : 
 https://boiling-ravine-99299.herokuapp.com/
