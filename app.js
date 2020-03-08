@@ -39,6 +39,6 @@ app.get('/api/todos/add', function(req,resp){
     // then send a success response
     //resp.send(req.query)
 })
-app.listen(3000, function(){
+app.listen(3000, process.env.PORT || function(){
     console.log("Server started");
 });
