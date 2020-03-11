@@ -4,7 +4,7 @@
     .h1{
         text-align: center;
     }
-#todo-input {
+#todos {
   height: 60px;
   border-radius: 50px;
   box-shadow: 2px 4px 15px #ff8b00;
