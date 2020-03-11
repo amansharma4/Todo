@@ -1,8 +1,18 @@
-<style>
-    .todo-checked {
+.todo-checked {
         text-decoration: line-through;
     }
     .h1{
         text-align: center;
     }
-</style>
+#todo-input {
+  height: 60px;
+  border-radius: 50px;
+  box-shadow: 2px 4px 15px #ff8b00;
+  background-color: #feffdb;
+  padding: 2px;
+  margin: 5px;
+  display: flex;
+  flex-direction: row;
+  transition: 1s;
+}
+
