@@ -12,7 +12,7 @@
 <ul  id="todos">
     <li >Some data</li>
 </ul>
-<input type="text"  id="todo-input" /> <button onclick="addTodo()" type="submit" id="todo-add-btn">Add Todo</button>
+<input type="text" placeholder="Add new ToDo" id="todo-input" /> <button onclick="addTodo()" type="submit" id="todo-add-btn">Add Todo</button>
 <script>
     fetch("/api/todos/").then(function(resp) {
         resp.text().then(function(data){
